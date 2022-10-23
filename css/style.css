@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+nav .brand-logo{
+  color: #3df003;
+  font-family: 'Merriweather', serif;
+}
+
+.footer-title{
+  
+  color: #3df003 !important;
+}
+
+section{
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+}
+section img {
+  width: 300px;
+  transition: 250ms all;
+}
+
+img:hover {
+  margin-left: 0 40px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.content {
+  border:1px solid red;
+  display:none;
+}
+.content div{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+
+.content-display {
+  display: block;
+}
